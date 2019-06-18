@@ -1,0 +1,13 @@
+32ee65c18770aa3cd0d80fa37a0ffed8 *DESCRIPTION
+9f639b0fc6967845d45cdf6707bac7fd *NAMESPACE
+1bb1b0b2d492ddc935bd8fa9c591d498 *R/addins.R
+66037af737c0083f038b75873e20fb4d *R/bdoc.R
+9a21ac6e1fad0ab1d6da457c7d54606d *R/selectobject.R
+c48a720717cc4f07febf5f69e6000f3b *R/setKeyboardBindings.R
+a9994fc2014140d55f07a6efae400c06 *README.md
+a48ad8502f5fdcb069f4ab72ac59cfb2 *inst/keyboardRlabels.ods
+0ac0eaea49fb8e9b332c457d3f310be6 *inst/rstudio/addins.dcf
+854ffb97f58d2b87447ddb7e8fb04cea *man/addins.Rd
+c7ca232008f29e8197c255270a9ca7d3 *man/bdoc.Rd
+c0ab7a23475b973f3be152a1bba6cd92 *man/selectobject.Rd
+3266a22ad62b2e4e951e2c1e9e1c26da *man/setKeyboardBindings.Rd
