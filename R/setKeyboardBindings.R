@@ -12,7 +12,7 @@
 #'                        be overwritten? Still informs if this occurs. DEFAULT: TRUE
 #' @param removeLastYank  Logical. Should the annoying Rstudio default to override
 #'                        "Redo" (CTRL+Y) with some weird yank be removed? 
-#'                        DEFAULT: TRUE (Ctrl+Y becomes "Redo" again)
+#'                        DEFAULT: TRUE (CTRL+Y becomes "Redo" again)
 #' @param workdir2filedir Logical. Set CTRL+H for setWorkingDirToActiveDoc?
 #'                        DEFAULT: TRUE
 #'
@@ -101,7 +101,8 @@ rskey::summary_addin   | F8
 rskey::dim_addin       | F9
 rskey::class_addin     | F10
 rskey::plot_addin      | F11
-rskey::hist_addin      | F12")
+rskey::hist_addin      | F12
+rskey::rcode           | Ctrl+,")
 if(nrow(setkeys)>0) new <- new[!new$key %in% setkeys[!setkeys$remove,"key"]   , ]
 
 if(nrow(new)>0)

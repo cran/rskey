@@ -4,8 +4,11 @@
 \alias{setKeyboardBindings}
 \title{Set Rstudio keyboard bindings}
 \usage{
-setKeyboardBindings(overwrite = TRUE, removeLastYank = TRUE,
-  workdir2filedir = TRUE)
+setKeyboardBindings(
+  overwrite = TRUE,
+  removeLastYank = TRUE,
+  workdir2filedir = TRUE
+)
 }
 \arguments{
 \item{overwrite}{Logical. Should existing mappings on F3, F4, ..., F12
@@ -13,7 +16,7 @@ be overwritten? Still informs if this occurs. DEFAULT: TRUE}
 
 \item{removeLastYank}{Logical. Should the annoying Rstudio default to override
 "Redo" (CTRL+Y) with some weird yank be removed? 
-DEFAULT: TRUE (Ctrl+Y becomes "Redo" again)}
+DEFAULT: TRUE (CTRL+Y becomes "Redo" again)}
 
 \item{workdir2filedir}{Logical. Set CTRL+H for setWorkingDirToActiveDoc?
 DEFAULT: TRUE}
